@@ -76,3 +76,47 @@ ul{
     margin-top: -450px;
 }
 
+/* Home Page End */
+
+.aboutUs{
+    background-color: white;
+    height: 500px;
+}
+.aboutpic{
+    width: 276px;
+    height: 260px;
+    margin-top: 120px;
+    margin-left: 90px;
+    border-radius: 100%;
+}
+.head3{ 
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 750;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 900px;
+} 
+.para{
+    font-size: 19px;
+    margin-left: 400px;
+    text-align: center;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.aboutText{
+    margin-top: -255px;
+}
+.line{
+    margin-left: 930px;
+    margin-top: 10px;
+}
+.items{
+    margin-left: 900px;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+
