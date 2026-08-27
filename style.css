@@ -1,6 +1,9 @@
 body{
     background-color:#3c141c;
 }
+.homepage{
+    height: 700px;
+}
 ul{
     display: flex;
     list-style: none;
@@ -8,21 +11,19 @@ ul{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
-
     gap: 60px;
     margin-right: 60px;
-    margin-top: 50px;
+    margin-top: 58px;
 }
-.li{
+span{
     margin-right: 450px;
     margin-top: 13px;
     font-size: 40px;
 }
-.img{
+.img1{
     width: 55px;
     margin-right: -50px;
     margin-top: -19px;
-    /* margin-bottom: -20px; */
 }
 .head1{
     color: #ef9628;
@@ -72,20 +73,22 @@ ul{
 }
 .coff{
     width: 550px;
-    margin-left: 980px;
+    margin-left: 950px;
     margin-top: -450px;
 }
-
 /* Home Page End */
+
+
+
 
 .aboutUs{
     background-color: white;
-    height: 500px;
+    height: 600px;
 }
 .aboutpic{
     width: 276px;
     height: 260px;
-    margin-top: 120px;
+    margin-top: 160px;
     margin-left: 90px;
     border-radius: 100%;
 }
@@ -110,7 +113,7 @@ ul{
 }
 .line{
     margin-left: 930px;
-    margin-top: 10px;
+    margin-top: -10px;
 }
 .items{
     margin-left: 900px;
@@ -118,5 +121,191 @@ ul{
     display: flex;
     gap: 10px;
 }
+/* about us ends */
 
 
+
+
+
+.menu{
+    background-color: #252525;
+    height: 1000px;
+}
+.head4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.menu p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.cards h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.cards img{
+    width: 220px;
+}
+.cards{
+    display: flex;
+    gap: 300px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+/*Our Menu ends */
+
+
+
+
+.testimonials{
+    background-color: #faf4f4;
+}
+.head5{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.testcards h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.testcards p{
+     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.testcards img{
+    width: 180px;
+    height: 180px;
+    border-radius: 140px;
+}
+.testcards{
+    display: flex;
+    gap: 200px;
+    text-align: center;
+    justify-content: center;
+}
+.dot{
+    align-items: center;
+    width: 60px;
+}
+/* Testimonials ends */
+
+
+
+
+.gallery{
+    background-color: white;
+    height: 1000px;
+}
+.gallery h1{
+    color: black;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.galcard img{
+    width: 420px;
+    height: 330px;
+    margin-left: 15px;
+    margin-top: 18px;
+    justify-content: center;
+}
+/* gallery ends */
+
+
+.contactUs{
+    background-color: #faf4f4 ;
+    height: 700px;
+    margin-top: -25px;
+}
+.contactUs h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.info{
+    margin-left: 180px;
+    margin-top: 140px;
+}
+.info img{
+    margin-top: 15px;
+    margin-bottom: -8px;
+    margin-right: 15px;
+    width: 29px;
+  
+}
+.info div{
+    color: #252525;
+    font-size: 18px;
+}
+.form{
+    margin-left: 850px;
+   margin-top: -280px;
+}
+.form input{
+    width: 330px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(196, 193, 193);
+}
+.form textarea{
+    width: 330px;
+    height: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(196, 193, 193);
+}
+.form button{
+    width: 130px;
+    height: 43px;
+    background-color: #3c141c;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border: none;
+    border-radius: 19px;
+}
+.hzt{
+    margin-top: -10px;
+}
+/* Contact Us ends  */
+
+
+.footer{
+    background-color: #252525;
+    height: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-bottom: -30px;
+}
+.footer img{
+    width: 30px;
+}
+.footer div{
+    margin-top: 20px;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+    
+}
+li:hover{
+    color: #ef9628;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration: none;
+    text-decoration-color: #ef9628;
+    text-decoration-thickness: 3px;
+    text-underline-position: below;
+}
